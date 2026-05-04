@@ -1,0 +1,25 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "git": "^0.1.5",
+    "gut": "^0.1.1",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.1",
+    "nodemon": "^3.1.14",
+    "zod": "^4.4.2"
+  }
+}
